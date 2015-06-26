@@ -1,4 +1,4 @@
-header,
+    header,
 hgroup,
 nav,
 footer,
@@ -9,13 +9,11 @@ section,
 article {
     display: block;
 }
-
 body {
     color: #666666;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     background-image: url(images/ptrbackground.jpg);
 }
-
 #wrapper {
     background-color: #90C7E3;
     width: 80%;
@@ -24,28 +22,22 @@ body {
     margin-right: auto;
     box-shadow: 5px 5px 5px #000033;
 }
-
 nav a {
     text-decoration: none;
 }
-
 nav a:link {
     color: #000033;
 }
-
 nav a:visited {
     color: #344873;
 }
-
 nav a:hover {
     color: white;
 }
-
 .float {
     float: left;
     padding-right: 20px;
 }
-
 h1 {
     color: #FFFFFF;
     background-color: #000033;
@@ -59,7 +51,6 @@ h1 {
     margin-bottom: 0;
     padding: 10px 10px 10px 10px;
 }
-
 #content {
     background-color: white;
     padding-top: 1px;
@@ -68,19 +59,13 @@ h1 {
     padding-bottom: 20px;
     margin-left: 190px;
 }
-
 #content li {
     list-style-image: url(images/marker.gif);
-}
-
-#content ul {
     list-style-position: inside;
 }
-
 p {
     color: #666666;
 }
-
 nav {
     font-weight: bold;
     padding-left: 20px;
@@ -90,56 +75,46 @@ nav {
     float: left;
     width: 160px;
 }
-
 h2 {
     color: #3399CC;
     font-family: Georgia, Times, "Times New Roman", serif;
     text-shadow: 1px 1px 1px #666666;
 }
-
 h3 {
     color: #000033;
     font-family: Georgia, Times, "Times New Roman", serif;
 }
-
 #gallery {
     position: relative;
     height: 200px;
 }
-
 #gallery img {
     float: none;
     padding: 0px;
 }
-
 .placeholder {
     position: absolute;
     top: 15px;
     left: 320px;
     opacity: .25;
 }
-
 #gallery ul {
     list-style-image: none;
     width: 250px;
 }
-
 #gallery li {
     display: inline;
     float: left;
     padding: 10px 10px 10px 10px;
 }
-
 #gallery a {
     color: #666666;
     font-style: italic;
     text-decoration: none;
 }
-
 #gallery span {
     display: none
 }
-
 #gallery a:hover span {
     display: block;
     position: absolute;
@@ -147,16 +122,13 @@ h3 {
     left: 320px;
     text-align: center;
 }
-
 .resort {
     color: #5C7FA3;
     font-weight: bold;
 }
-
 #contact {
     font-size: 90%;
 }
-
 footer {
     font-size: 75%;
     font-style: italic;
@@ -166,20 +138,18 @@ footer {
     margin-left: 190px;
     background-color: white;
 }
-
 .desktop {
     display: inline;
 }
-
 .mobile {
     display: none;
 }
-
 nav ul {
     list-style-type: none;
     padding: 0px;
     margin: 0px;
 }
+
 /* Screen size for tablets */
 
 @media only screen and (max-width: 768px) {
@@ -212,6 +182,7 @@ nav ul {
         margin-left: 0px;
     }
 }
+
 /* Hide image gallery below 550px */
 
 @media only screen and (max-width: 550px) {
@@ -219,6 +190,7 @@ nav ul {
         display: none;
     }
 }
+
 /* Screen size for Mobile */
 
 @media only screen and (max-width: 480px) {

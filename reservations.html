@@ -5,6 +5,7 @@
     <title>Pacific Trails :: Reservations</title>
     <link rel="stylesheet" href="pacific.css" />
     <meta charset="utf-8" />
+    <meta name="Reservations" content="Enter your informaiton, including dates preferred and how many nights you wish.">
     <!--[if lt IE 9]
     <script scr="http://html5shim.googlecode.com/snv/trunk/html5.js">      </script>
     <![endif]-->
@@ -30,11 +31,50 @@
                 </li>
             </ul>
         </nav>
+        
+         <div id="content">
+        
+        <h2>Reservations at Pacific Trails</h2>
+        
+        <h3>Contact Us Today</h3>
+        
+        <p>Required fields are marked with an asterisk *</p>
+        
+        
+        
+        
+<form name="Reservations" method="post" id="Reservations" action="http://webdevbasics.net/scripts/pacific/php">
+    <label for="myFName">* First Name:</label>
+    <input type="text" name="myFName" id="myFName" required="required">
+    <label for="myLName">* Last Name:</label>
+    <input type="text" name="myLName" id="myLName" required="required">
+    <label for="myEmail">* Email:</label>
+    <input type="email" name="myEmail" id="myEmail" size="40">
+    <label for="myPhone">Phone:</label>
+    <input type="tel" name="myPhone" id="myPhone">
+    <label for="myArrival">Arrival Date:</label>
+    <input type="date" name="myArrival" id="myArrival">
+    <label for="myNights">Nights:</label>
+    <input type="number" name="mnNights" id="myNights">
+    <label for="myComments">* Comments:</label>
+    <textarea name="comments" id="myComments" rows="4" cols="40"></textarea>
+
+    <input type="submit">
+
+</form>
+        
+                    <div id="contact"><span class="resort">Pacific Trails Resort</span>
+                <br> 12010 Pacific Trails Road
+                <br> Zephyr, CA 95555
+                <br>
+                <br><span class="desktop">888-555-5555</span><span class="mobile"><a href="tel:888-555-5555">888-555-5555</a></span>
+            </div>
 
 
         <footer>Copyright &copy; 2015 Pacific Trails Resort
             <br><a href="mailto:rgallo@my.hennepintech.edu">rgallo@my.hennepintech.edu</a>
         </footer>
+        </div>
 
     </div>
 

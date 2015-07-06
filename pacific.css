@@ -273,6 +273,7 @@ input {
     .mobile {
         display: inline;
     }
+<<<<<<< HEAD
     label {
     float: none;
     display: block;
@@ -287,4 +288,6 @@ input {
     
 }
 
+=======
+>>>>>>> d9a1e1a95da1754d41019ab7649dcefed849feef
 }
